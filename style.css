@@ -1,0 +1,261 @@
+body{
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", "Noto Sans CJK SC", "Noto Sans CJK", "Source Han Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+
+        /* large */
+        .section-covid-19-app-ribbon {
+            margin-top: 0;
+            background: #0071E3;
+        }
+        
+        .ribbon-covid-19-response {
+            background: #0071E3;
+        }
+        
+        .covid-19-app-copy {
+            background: #0071E3;
+            padding: 12px 0;
+            /* background: #0071E3; */
+            color: #ffffff;
+            margin-top: 0;
+            font-size: 1em;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .covid-19-app-copy strong{
+            font-style: italic;
+            color: #fff;
+        }
+
+        .covid-19-app-copy a {
+            color: #ffffff;
+        }
+        .section-content1{
+            background: #0071E3;
+        }
+        .section-content1 a:hover{
+            color:white;
+        }
+        /* small */
+        @media only screen and (max-width: 734px) {
+            .covid-19-app-copy {
+              
+                padding: 10px 0;
+                max-width: 285px;
+                margin: 0 auto;
+            }
+        
+            .edge .main [data-module-template].collection-module [data-unit-id] {
+               
+                overflow: auto;
+            }
+        }
+
+
+.up{
+    background-image:linear-gradient( #00042c,#000000fd);
+    position: relative;
+    top: 0;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+}
+.up .content h1{
+    color: rgb(255, 255, 255);
+}
+
+.up .content h2{
+    color: rgb(255, 255, 255);
+}
+.up .content{
+    left: 10%;
+    line-height: 0.8em;
+    position: relative;
+    top: 25%;
+    z-index: 5000;
+}
+.up .content h1{
+    font-size: 6em;
+}
+.up .content img{
+    position: absolute;
+    top:calc(-150%);
+    transition: 0.5s;
+    right: calc(31.8% - 15vw);
+    height: calc(100px + 20vh + 20vw);
+}
+
+
+/* height: calc(100px + 10vh + 10vw); */
+
+@media only screen and (max-width: 992px) {
+    .up .content img{
+        position: absolute;
+        top:calc(-150%);
+        transition: 0.5s;
+        right: calc(31.8% - 20vw);
+        height: calc(100px + 20vh + 20vw);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .up .content img{
+        display: none;
+    }
+}
+
+.up .pic img{
+    margin-top: 25px;
+    margin-left: 30px;
+    position: absolute;
+    width: 50px;
+}
+.up .pic img:hover{
+    cursor: pointer;
+    transition: ease-in-out 0.15s;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 60px;
+}
+
+
+
+
+.nav{
+   height: 50px; 
+}
+
+.nav a{
+    color: #fff;
+ }
+
+.nav a:hover{
+    color:rgb(145, 224, 255)!important;
+    text-decoration:underline;
+}
+
+@media screen and (max-width: 992px) {
+ 
+    .nav ul{
+        display: none;
+        
+    }
+ 
+}
+
+.nav li{
+    margin-right: calc(90%/10);
+    display:inline-block;
+}
+
+.nav ul{
+    width: 100%;
+    margin-top: 30px;
+    left: 10%;
+    position: absolute;
+
+ }
+
+.nav li{
+    color: #fff;
+    font-size:1.25em; 
+}
+
+
+
+
+.main {
+
+    position: relative;
+    margin-top:100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom:100px;
+}
+.section h1{
+    color:black;
+}
+
+.section h2{
+    color:black;
+}
+
+.main .section{
+    margin-bottom: 1em;
+}
+.down{
+    background-image:linear-gradient(#000000fd, #00042c);
+    position: relative;
+
+    
+    width: 100%;
+}
+.down h1{
+   color:white;
+}
+strong{
+    font-weight: 300;
+    color: rgb(255, 70, 70);
+}
+code{
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", "Noto Sans CJK SC", "Noto Sans CJK", "Source Han Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: rgb(255, 70, 70);
+}
+p{
+    font-size: 1em;
+}
+a{
+    color: #0084fffd;
+    text-decoration: none;
+}
+a:hover{
+    color: #8049fffd;
+    text-decoration: underline;
+}
+ul{
+    font-size: 1em;
+    line-height: 2em;
+    padding:0;
+    list-style: none;
+}
+.down .content{
+    padding-top:50px;
+    margin-left:10%;
+    padding-bottom:50px;
+}
+.down h1{
+    margin-bottom: 0;
+    color: white;
+}
+.down .p{
+    color: white;
+}
+.down ul{
+    margin-top:0;
+    margin-bottom: 0;
+    color: white;
+}
+.down li{
+    color: white;
+}
+.down .web-info{
+    position: absolute;
+    right: 10%;
+    color: white;
+}
+.down .web-info p{
+    margin: 0;
+}
+
