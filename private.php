@@ -31,7 +31,7 @@
         <h4>输入账号以及身份ID以验证</h4>
         <input type="text" id="$name" class="$name" value="<?php echo htmlentities($name); ?>">
         
-         </div> 
+        </div> 
         <img src="/images/meme/welcome.png">
     </div>
 <?php include "tpl/zhhl/test.php"; echo "$name" ?>
