@@ -5,7 +5,7 @@ if ($passwd != 'xxxxxxxxxxxxxxx') {
     echo "在链接后加上?p=xxx，把xxx替换成一串22字的的英文字母（提示：漫际服务器的口号）";
 exit;}
 // header("Content-type:text/html;charset=utf-8");//字符编码设置 
-$servername = "localhost:3306"; 
+$servername = ""; 
 $username = ""; 
 $password = ""; 
 $dbname = ""; 
