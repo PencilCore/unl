@@ -29,6 +29,7 @@
             <h2>记录收支和用途</h2>
         </div>
     </div>
+
     <div class="main">
         <div class="section">
             <h1>记账本</h1>
@@ -79,7 +80,10 @@
             <p>晓白：1.11元 [21.02.08]</p>
         <p class="summary">交了三个月服务器租金，网站服务器一个月（？）租金。为星之队开了PE服。买了漫际娘人设-30r总计：110.57元，结余：-26.57元</p>
         </div>
-        
+        <div class="section">
+            <h3>2021年4-6月</h3>
+            <p class="summary">没有活动，服务器休眠</p>
+        </div>
     </div>
     <div class="down">
         <?php include "tpl/down.php" ?>

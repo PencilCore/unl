@@ -1,3 +1,5 @@
+<!-- 该文件用于皮肤站邀请码的传递 -->
+
 <!DOCTYPE html>
 <?php 
 $passwd = isset($_GET['p']) ? $_GET['p'] : '';
@@ -21,7 +23,7 @@ if (!$link) {
 }
 //sql表单
 $sql="SELECT id,code FROM invitation_codes ORDER BY RAND() LIMIT 1";
-mysqli_select_db($link,'skin_unl_world');
+mysqli_select_db($link,'');
 //返回的表单值
 $retval = mysqli_query( $link, $sql );
 if(! $retval ) {

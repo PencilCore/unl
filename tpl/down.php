@@ -2,8 +2,7 @@
             <div class="contact">
                 <h1 title="虽然没人会联系我的">加入并联系我们</h1>
                 <ul>
-                    <li>审核群：794398304</li>
-                    <li>主群：1061872652</li> 
+                    <li>主Q群：1061872652</li> 
                 </ul>
                 <ul>
         <li><a href="index.php">主页</a></li>

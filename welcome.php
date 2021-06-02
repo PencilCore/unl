@@ -39,9 +39,10 @@
         <img class="welcome-introduction" style="max-height:450px;width:80vw;object-fit:contain;" src="images/welcome/welcome-introduction-7.png">
         <p>进入游戏后，单击<strong>多人游戏</strong>，单击<strong>添加服务器</strong>按钮。</p>
         <p>在地址一栏输入<strong><a>minecraft.unl.world</a></strong>，名称请随意填写。</p>
-        <p>然后进入服务器，按照要求在聊天框内输入<code>/register [你的密码] [你的密码]</code>，然后再输入<code>/login [你的密码]</code>就可以进行游戏了。</p>
+        <p>接下来，快乐滴游戏吧！</p>
+        <!-- <p>然后进入服务器，按照要求在聊天框内输入<code>/register [你的密码] [你的密码]</code>，然后再输入<code>/login [你的密码]</code>就可以进行游戏了。</p> -->
         <h2>对于未拥有启动器的玩家，且不知晓他们用法的新玩家们</h2>
-        <p>我们建议你使用我们的整合包，这里面包含了几个mod，还有许多光影，比较适合使用。配置方法大可参照上面。(haimeizuowan)</p>
+        <p>我们建议你在群内（群号在底部）下载我们的整合包，这里面包含了几个mod，还有许多光影，比较适合使用。配置方法大可参照上面。</p>
         <p>当然，你也可以使用别人的整合包，可能会比我们的更加好用。</p>
         </div>
     <div class="section">

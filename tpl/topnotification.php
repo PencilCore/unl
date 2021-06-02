@@ -1,8 +1,8 @@
 <div class="section-content1">  
-        <span class="covid-19-app-copy">
+        <!-- <span class="covid-19-app-copy">
             <a class="icon icon-after icon-chevronright" href="https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_self" data-analytics-region="learn more" data-analytics-title="Evaluate COVID‑19 symptoms">如何应对新冠疫情？————看看来自<strong>WHO </strong>的指导</a>
         </span>
-        <span class="guabiwarning-top"><a>最近有挂壁出没，小心！</a></span>
+        <span class="guabiwarning-top"><a>最近有挂壁出没，小心！</a></span> -->
         <style>
             .guabiwarning-top{
                 height:1.3em;
